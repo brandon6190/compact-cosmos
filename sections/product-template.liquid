@@ -1,7 +1,7 @@
 {% for tag in product.tags %}
   {% if tag contains 'affiliate_' %}
     {% assign isAffiliateProduct = true %}
-    {% assign affiliate_link = tag %}
+    {% assign affiliateLink = tag %}
   {% endif %}
 {% endfor %}
 
@@ -251,7 +251,7 @@
                 {% endif %}
                 {%comment%}Render affiliate link{%endcomment%}
                 {% else %}
-                  <a href={{affiliate_link | remove: 'affiliate_'}} class="btn product-form__cart-submit" target="_blank" data-add-to-cart>SEE ON AMAZON</a>
+                  <a href={{affiliateLink | remove: 'affiliate_'}} class="btn product-form__cart-submit" target="_blank" data-add-to-cart>{{ 'customizations.affiliate_page.amazon_button' | t }}</a>
                 {% endunless %}
               </div>
             </div>

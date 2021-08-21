@@ -228,7 +228,8 @@
       "message": "Message",
       "submit": "Send",
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-      "error_heading": "Please adjust the following:"
+      "error_heading": "Please adjust the following:",
+      "order_number": "Order Number"
     }
   },
   "customer": {
@@ -418,6 +419,16 @@
       "remaining_html": "{{ balance }} left",
       "add_to_apple_wallet": "Add to Apple Wallet",
       "qr_image_alt": "QR code — scan to redeem gift card"
+    }
+  },
+  "customizations": {
+    "wholesale": {
+      "business_name": "Company",
+      "business_type": "Type of Business",
+      "website": "Business Website"
+    },
+    "affiliate_page": {
+      "amazon_button": "SEE ON AMAZON"
     }
   }
 }
