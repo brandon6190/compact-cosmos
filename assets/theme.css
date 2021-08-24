@@ -7052,3 +7052,8 @@ hr {
   padding: 1em;
 }
 
+/******************************************** PRODUCT REVIEW APP (Judge.me) STYLING ********************************************/
+
+.jdgm-histogram__bar-content {
+  background-color: #190061 !important;
+}
