@@ -1,13 +1,19 @@
 <h2>{{section.settings.heading}}</h2>
 
-{% for block in section.blocks %}
-    {% if block.type == 'QA' %}
-        <h2>{{block.settings.question}}</h2>
-        <p>{{block.settings.answer}}</p>  
-    {% elsif block.type == 'headline' %}
-        <h3>{{block.settings.title}}</h3>
-    {% endif %}
-{% endfor %}
+<div class="faq">
+    {% for block in section.blocks %}
+        {% if block.type == 'headline' %}
+            <h4>{{block.settings.title}}</h4>
+        {% elsif block.type ==  'QA' %}
+            <div class="question">
+                <input type="checkbox" id="question-{{block.id}}" class="question-toggle">
+                <label for="question-{{block.id}}" class="question-label">{{block.settings.question}}</label>
+                <div class="answer">{{block.settings.answer}}</div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
 
 {% schema %}
 {
