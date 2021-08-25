@@ -429,6 +429,11 @@
     },
     "affiliate_page": {
       "amazon_button": "SEE ON AMAZON"
+    },
+    "product_page": {
+      "description_tab": "Description",
+      "details_tab": "Details",
+      "shipping_tab": "Shipping"
     }
   }
 }
