@@ -1,35 +1,88 @@
 {
   "current": {
+    "color_button": "#190061",
+    "image_overlay_opacity": 0,
+    "social_twitter_link": "https:\/\/twitter.com\/",
+    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_instagram_link": "http:\/\/instagram.com\/",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_logo_position": "center",
+    "checkout_accent_color": "#190061",
+    "checkout_button_color": "#190061",
     "sections": {
       "header": {
         "type": "header",
-        "settings": {}
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo_2.png",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
       },
       "hero-1": {
         "type": "hero",
         "settings": {
+          "image": "shopify:\/\/shop_images\/homepage_slider.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
           "hero_size": "large",
-          "text_size": "large"
+          "text_size": "medium",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/products\/compact-cosmos"
         }
       },
       "feature-row": {
         "type": "feature-row",
-        "settings": {}
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage_1.jpg",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       },
       "feature-columns": {
         "type": "feature-columns",
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           },
           "feature-columns-1": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           },
           "feature-columns-2": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -38,19 +91,19 @@
           "feature-columns-2"
         ],
         "settings": {
-          "title": ""
+          "title": "",
+          "align_text": "left"
         }
       },
       "collection": {
         "type": "collection",
         "settings": {
-          "grid": 4
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "text_size": "large"
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "quotes": {
@@ -58,15 +111,24 @@
         "blocks": {
           "quotes-0": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           },
           "quotes-1": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           },
           "quotes-2": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           }
         },
         "block_order": [
@@ -83,51 +145,210 @@
         "blocks": {
           "image-bar-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instagram_1.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
           },
           "image-bar-1": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instagram_2.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
           },
           "image-bar-2": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instagram_3.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "bf1d70e7-7e61-44cf-9d71-e0a44447c6c4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instagram_4.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
           }
         },
         "block_order": [
           "image-bar-0",
           "image-bar-1",
-          "image-bar-2"
+          "image-bar-2",
+          "bf1d70e7-7e61-44cf-9d71-e0a44447c6c4"
         ],
-        "settings": {}
+        "settings": {
+          "gallery_heading": "Instagram",
+          "section_height": "small"
+        }
       },
       "footer": {
         "type": "footer",
         "blocks": {
+          "e4b4c2ad-3571-44b0-88a8-7435111ae946": {
+            "type": "link_list",
+            "settings": {
+              "title": "Navigation",
+              "menu": "main-menu"
+            }
+          },
           "footer-0": {
             "type": "link_list",
-            "settings": {}
+            "settings": {
+              "title": "Legal",
+              "menu": "footer"
+            }
           },
-          "footer-1": {
-            "type": "newsletter",
-            "settings": {}
+          "f0dea73c-86a2-468e-a957-fe84ece78952": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your business",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
+          "e4b4c2ad-3571-44b0-88a8-7435111ae946",
           "footer-0",
-          "footer-1"
+          "f0dea73c-86a2-468e-a957-fe84ece78952"
         ],
         "settings": {
-          "show_payment_icons": true
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "162853368442b27f21": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage_2.jpg",
+          "layout": "right",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1628534201149a9abe": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/homepage_3.jpg",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "9703cca8-a184-4aa0-9989-fdcabcf56d30": {
+            "type": "headline",
+            "settings": {
+              "title": "Orders"
+            }
+          },
+          "531392f8-7db6-49f6-8a37-4149ca224f3c": {
+            "type": "QA",
+            "settings": {
+              "title": "Can I change or cancel my order?",
+              "question": "Can I change or cancel my order?",
+              "answer": "<p>All orders are final once they have been processed through the checkout.<br\/>        Unfortunately, no further changes can be made to your order once processed including and not limited to; <br\/>        removing and\/or adding items to your order, combining orders or cancelling your order.<\/p>"
+            }
+          },
+          "955578ca-0fe0-4301-8493-8742bfe2d9df": {
+            "type": "QA",
+            "settings": {
+              "title": "What delivery times?",
+              "question": "What delivery times?",
+              "answer": "<p>Your order will be shipped the same, or next, business day. <br\/>        During sale events and holidays, there may be a slightly longer duration.<\/p>"
+            }
+          },
+          "98ac7f78-31f4-4809-9630-17c3d04a29d6": {
+            "type": "headline",
+            "settings": {
+              "title": "Product"
+            }
+          },
+          "ed0642aa-cd3c-4a91-be61-02d4751422af": {
+            "type": "QA",
+            "settings": {
+              "title": "Can I get my product personalized?",
+              "question": "Can I get my product personalized?",
+              "answer": "<p>All options are outlined on the product page, so look out for customization options there.<\/p>"
+            }
+          },
+          "aad7810d-0644-4f3d-b661-280be8b2e498": {
+            "type": "QA",
+            "settings": {
+              "title": "Is the projector easy to install?",
+              "question": "Is the projector easy to install?",
+              "answer": "<p>Yes! All functions are self-explanatory.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "9703cca8-a184-4aa0-9989-fdcabcf56d30",
+          "531392f8-7db6-49f6-8a37-4149ca224f3c",
+          "955578ca-0fe0-4301-8493-8742bfe2d9df",
+          "98ac7f78-31f4-4809-9630-17c3d04a29d6",
+          "ed0642aa-cd3c-4a91-be61-02d4751422af",
+          "aad7810d-0644-4f3d-b661-280be8b2e498"
+        ],
+        "settings": {
+          "heading": "YOUR QUESTIONS ANSWERED!"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "isOrderNumberEnabled": true
+        }
+      },
+      "contact-wholesale": {
+        "type": "contact-wholesale",
+        "settings": {
+          "business_types": "Retail Store, e-Commerece Site, U.S Distributors"
         }
       }
     },
     "content_for_index": [
       "hero-1",
       "feature-row",
-      "feature-columns",
-      "collection",
-      "hero-2",
+      "162853368442b27f21",
+      "1628534201149a9abe",
       "quotes",
       "image-bar"
     ]
