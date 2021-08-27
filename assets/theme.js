@@ -690,8 +690,7 @@ slate.Variants = (function() {
       options.singleOptionSelector
     );
     this.currentVariant = this._getVariantFromOptions();
-    this.detailsTabUS = document.getElementById('details-us');       
-    this.detailsTabEU = document.getElementById('details-eu');
+    this.detailsTab = document.getElementById('details-tab');       
     this.singleOptions.forEach(
       function(option) {
         option.addEventListener('change', this._onSelectChange.bind(this));
@@ -885,16 +884,10 @@ slate.Variants = (function() {
     },
 
     _updateProductDetailsTab: function(variant) {
-      if (this.detailsTabUS && this.detailsTabEU) {
-        if (variant.option2 === 'US') {
-         this.detailsTabEU.classList.add('hide');
-         this.detailsTabUS.classList.remove('hide'); 
-        } else if (variant.option2 === 'EU') {
-          this.detailsTabUS.classList.add('hide');
-          this.detailsTabEU.classList.remove('hide');
-        }
+      if (this.detailsTab && document.variantDetails) {
+        this.detailsTab.innerHTML = document.variantDetails[variant.id];
       }
-    }
+    } 
   });
 
   return Variants;
