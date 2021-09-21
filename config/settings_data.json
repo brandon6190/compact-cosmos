@@ -34,8 +34,8 @@
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "medium",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "title": "Cosmos Reimagined",
+          "text": "<p>Experience the expanse of the universe right from the comfort of your home<\/p>",
           "button_label": "Shop Now",
           "button_link": "shopify:\/\/products\/compact-cosmos"
         }
@@ -45,8 +45,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/homepage_1.jpg",
           "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "From Your Bedroom",
+          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
           "button_label": "",
           "button_link": ""
         }
@@ -112,22 +112,22 @@
           "quotes-0": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "quote": "<p>My daughter wanted one of these for her black and Gray nighttime star Room that we recently decorated.<\/p>",
+              "author": ""
             }
           },
           "quotes-1": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "quote": "<p>This star projector is so cool. no complaints everything got here within a few days after ordering and it all works great.<\/p>",
+              "author": ""
             }
           },
           "quotes-2": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "quote": "<p>This star projector is so cool. no complaints everything got here within a few days after ordering and it all works great.<\/p>",
+              "author": ""
             }
           }
         },
@@ -234,8 +234,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/homepage_2.jpg",
           "layout": "right",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "Custom Color Settings",
+          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
           "button_label": "",
           "button_link": ""
         }
@@ -245,8 +245,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/homepage_3.jpg",
           "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "To Your Living Area",
+          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
           "button_label": "",
           "button_link": ""
         }
